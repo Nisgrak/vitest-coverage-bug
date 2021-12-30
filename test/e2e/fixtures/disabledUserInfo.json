@@ -1,0 +1,53 @@
+{
+	"enabled": false,
+	"client_id": "6bb04601-eb41-5cb9-sdfa-c08da7229ae0",
+	"email": "correoTest@correoTest.com",
+	"fullname": "NombrePrueba Apellido1Prueba Apellido2Prueba",
+	"name": "NombrePrueba",
+	"surname": "Apellido1Prueba Apellido2Prueba",
+	"source": "360",
+	"groups": null,
+	"organizations": [
+		{
+			"key": "Test1",
+			"enabled": true,
+			"name": "Test1",
+			"description": null,
+			"deleted": false
+		},
+		{
+			"key": "Test2",
+			"enabled": true,
+			"name": "Test2",
+			"description": null,
+			"deleted": false
+		},
+		{
+			"key": "Test3",
+			"enabled": true,
+			"name": "Test3",
+			"description": null,
+			"deleted": false
+		},
+		{
+			"key": "Test4",
+			"enabled": true,
+			"name": "Test4",
+			"description": "Test4",
+			"deleted": false
+		}
+	],
+	"vaults": [],
+	"conditions": [],
+	"roles": [
+		{
+			"organization": null,
+			"key": "example-app.read",
+			"description": "Read App",
+			"enabled": true,
+			"deleted": false,
+			"vault": null,
+			"condition": null
+		}
+	]
+}

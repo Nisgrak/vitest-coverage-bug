@@ -1,0 +1,22 @@
+{
+  "name": "test-lib-vitest",
+  "version": "0.0.0",
+  "scripts": {
+    "test:unit": "vitest --coverage",
+    "test:unit:ci": "vitest --coverage run"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.1",
+    "c8": "^7.11.0",
+    "jsdom": "^19.0.0",
+    "ky-universal": "^0.9.1",
+    "msw": "^0.36.3",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vitest": "^0.0.124"
+  },
+  "dependencies": {
+    "js-cookie": "^3.0.1",
+    "ky": "^0.28.7"
+  }
+}
